@@ -1,13 +1,11 @@
 package com.springjenkins.springjenkins;
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import java.util.logging.Logger;
-
 @SpringBootApplication
 public class SpringJenkinsApplication {
-    public static void main(String[] args) {
+
+    public static main(String[] args) {
         SpringApplication.run(SpringJenkinsApplication.class, args);
         System.out.println("Application running.....");
     }
